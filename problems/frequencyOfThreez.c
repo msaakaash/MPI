@@ -10,6 +10,7 @@ int d[] = {1,2,2,3,1,3,3,4,5,3};
 int l1 = sizeof(d)/sizeof(d[0]);
 int chunk_size = l1/size;
 int local[chunk_size];
+ //data to be searched
 int da = 3;
 MPI_Scatter(d,chunk_size,MPI_INT,local,chunk_size,MPI_INT,0,MPI_COMM_WORLD);
 int count = 0;
