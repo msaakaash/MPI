@@ -15,7 +15,7 @@ Before running the MPI programs, ensure you have the following installed:
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/your-mpi-repo.git
+git clone https://github.com/msaakaash/your-mpi-repo.git
 cd your-mpi-repo
 ```
 
