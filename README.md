@@ -37,13 +37,6 @@ For Python MPI programs:
 mpirun -np <num_processes> python program.py
 ```
 
-## Directory Structure
-
-```
-MPI/
-│-- basice/               # basic  codes for MPI program
-│-- README.md          # This file
-```
 
 ## Contributing
 
